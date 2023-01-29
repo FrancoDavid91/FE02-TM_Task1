@@ -1,3 +1,97 @@
 *{
-    background-color: gray;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic-Sans', cursive;
+}
+
+/*----ENCABEZADO----*/
+
+img{
+    height: 150px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 68px;
+    font-style: italic;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+nav{
+    margin-left: 72%;
+    display: inline-block;
+}
+nav a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: royalblue;
+    box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.69);
+    padding: 10px;
+    margin-left: 12px;
+    border: 2px solid black;
+}
+a:hover{
+    background-color: forestgreen;
+}
+a:active{
+    background-color:lawngreen;
+}
+nav a.active{
+    background-color:forestgreen;
+}
+.portada{
+    background-image: url("../asset/design1_image1.jpg");
+    background-position: 35% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.container-logo{
+    display: inline-block;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+}
+
+/*----HOME & ABOUT----*/
+main{
+    height: 70vh;
+}
+.conteiner-info{
+    display: inline-block;
+    position: relative;
+}
+section{
+    width: 80%;
+    position: absolute;
+    left: 250px;
+    top:635px;
+}
+section p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+h4{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*----CONTACT----*/
+footer{
+    height: 70vh;
+    position: absolute;
+    left: 250px;
+    top:635px;
+}
+footer>p{
+    margin-bottom: 20px;
 }
