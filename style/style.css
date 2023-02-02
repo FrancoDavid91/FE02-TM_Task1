@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comic-Sans', cursive;
-    
+    font-family: 'Comic-Sans', cursive;  
 }
 
 /*----ENCABEZADO----*/
@@ -144,6 +143,19 @@ tbody{
     width: 100%;
     margin-bottom: 40px;
 }
+.table-info tr{
+    display: flex;
+}
+.additional-info{
+    margin-bottom: 25px;
+}
+.additional-contact{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.mail-col{
+    text-align: right;
+}
 /*----RULES----*/
 .header-rules{
     text-align: center;
@@ -173,13 +185,4 @@ tbody{
 .body-rules ul{
     margin-left: 70px;
     list-style: circle;
-}
-.table-info tr{
-    display: flex;
-}
-.additional-info{
-    margin-bottom: 25px;
-}
-.additional-contact{
-    justify-content: space-between;
 }
