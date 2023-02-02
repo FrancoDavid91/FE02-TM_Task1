@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Comic-Sans', cursive;
+    
 }
 
 /*----ENCABEZADO----*/
@@ -12,9 +13,10 @@ img{
     border: 2px solid black;
 }
 h1{
-    font-size: 68px;
+    font-size: 58px;
     font-style: italic;
     display: inline-block;
+    padding-bottom: 25px;
 }
 h2{
     text-align: center;
@@ -22,8 +24,11 @@ h2{
     border: 1px solid black;
 }
 nav{
-    margin-left: 72%;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 85px;
+    left: 55%;
 }
 nav a{
     font-size: 20px;
@@ -63,8 +68,8 @@ nav a.active{
 }
 
 /*----HOME & ABOUT----*/
-main{
-    height: 70vh;
+.main-home{
+    height: 90vh;
 }
 .conteiner-info{
     display: inline-block;
@@ -87,11 +92,94 @@ h4{
 
 /*----CONTACT----*/
 footer{
-    height: 70vh;
+    height: 40vh;
+    padding-top: 5px;
     position: absolute;
     left: 250px;
     top:635px;
 }
 footer>p{
     margin-bottom: 20px;
+}
+
+/*----INFORMATION----*/
+.title-information{
+    border: none;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+h3{
+    font-style: italic;
+}
+.table-date{
+    width: 100%;
+    margin-bottom: 40px;
+}
+caption{
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+}
+th{
+    text-align: left;
+}
+.month{
+    text-align: center;
+}
+.date-game{
+    text-align: center;
+}
+.table-date td{
+    padding: 10px;
+}
+.table-date tr{
+    margin-bottom: 12px;
+}
+tbody{
+    font-weight:lighter;
+    font-size: small;
+}
+.table-information{
+    width: 100%;
+    margin-bottom: 40px;
+}
+/*----RULES----*/
+.header-rules{
+    text-align: center;
+    margin: 10px 15px;
+}
+.header-rules h3{
+    font-style:normal;
+}
+.body-rules{
+    margin: 10px 15px;
+}
+.body-rules p{
+    margin: 0px;
+    text-indent: 40px;
+}
+.body-rules h3{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.regulations>li{
+    margin: 20px 15px 0px 25px;
+}
+.groups li{
+    margin-left: 25px;
+    list-style: lower-alpha;
+}
+.body-rules ul{
+    margin-left: 70px;
+    list-style: circle;
+}
+.table-info tr{
+    display: flex;
+}
+.additional-info{
+    margin-bottom: 25px;
+}
+.additional-contact{
+    justify-content: space-between;
 }
