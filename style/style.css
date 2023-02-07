@@ -89,7 +89,13 @@ h4{
     font-weight: bold;
     font-style: italic;
 }
-
+.number{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+    position: relative;
+    top: -10px;
+}
 /*----CONTACT----*/
 footer{
     height: 40vh;
@@ -179,7 +185,7 @@ h5{
 .maplocation div{
     margin: 15px;
     border: 2px solid gray;
-    background-color: antiquewhite;
+    background-color: rgb(245, 244, 244);
 }
 .maplocation>div:hover{
     box-shadow:8px 8px 8px 1px rgba(0,0,0,0.5); ;
@@ -225,6 +231,11 @@ form{
     padding: 30px 50px;
     display: flex;
     flex-wrap:wrap;  
+}
+section h2{
+    text-align: center;
+    font-weight: bold;
+    border: none;
 }
 label{
     padding: 10px 10px 10px 0px;
@@ -282,6 +293,6 @@ input{
 .submitform:hover{
     cursor: pointer;
     border-radius: 5%;
-    box-shadow: inset 8px 8px 8px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 8px 5px 1px rgba(0,0,0,0.5);
     background-color: rgb(248, 247, 222);
 }
