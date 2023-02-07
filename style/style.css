@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comic-Sans', cursive;  
+    font-family: 'Comic-Sans', cursive;
+    /*border: 1px solid black;*/ 
 }
 
 /*----ENCABEZADO----*/
@@ -27,7 +28,7 @@ nav{
     justify-content: flex-end;
     position: absolute;
     top: 85px;
-    left: 55%;
+    left: 49%;
 }
 nav a{
     font-size: 20px;
@@ -117,6 +118,7 @@ h3{
 }
 caption{
     font-style: italic;
+    text-decoration: underline;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -156,6 +158,32 @@ tbody{
 .mail-col{
     text-align: right;
 }
+.titlelocations{
+    font-style: normal;
+    text-align: center;
+    margin: 60px;
+}
+h5{
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: underline;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.maplocation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.maplocation div{
+    margin: 15px;
+    border: 2px solid gray;
+    background-color: antiquewhite;
+}
+.maplocation>div:hover{
+    box-shadow:8px 8px 8px 1px rgba(0,0,0,0.5); ;
+}
 /*----RULES----*/
 .header-rules{
     text-align: center;
@@ -185,4 +213,75 @@ tbody{
 .body-rules ul{
     margin-left: 70px;
     list-style: circle;
+}
+/*----FORM----*/
+.main-form{
+    height: 330vh;
+}
+.main-form h2{
+    margin-bottom: 10px;
+}
+form{
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap:wrap;  
+}
+label{
+    padding: 10px 10px 10px 0px;
+    margin-left: 0px;   
+}
+.rowform{
+    margin: 5px;
+    display: flex;
+}
+.rowform span{
+    padding-top: 10px;
+}
+fieldset{
+    margin: 20px 0;
+    border: none;
+    width: 65%;
+}
+.titlelegend{
+    font-weight: bold;
+}
+.row-container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-container label{
+    width: 50%;
+}
+legend{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline:none;
+}
+.permission{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.permission p{
+    margin-left: 0;
+    padding-right: 55px;
+}
+.submitform{
+    width:100%; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.submitform:hover{
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: inset 8px 8px 8px 1px rgba(0,0,0,0.5);
+    background-color: rgb(248, 247, 222);
 }
